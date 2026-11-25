@@ -9,10 +9,10 @@
 </head>
 <body>
 
-  <!-- ===== Navegação ===== -->
+  <!-- Navegação -->
   <header class="navbar">
     <div class="container navbar-inner">
-      <a href="#inicio" class="logo">&lt;WF/&gt;</a>
+      <strong><a href="#inicio" class="logo">&lt;WF/&gt;</a></strong>
 
       <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -31,7 +31,7 @@
 
   <main>
 
-    <!-- ===== Hero ===== -->
+    <!-- Hero -->
     <section id="inicio" class="hero">
       <div class="container hero-grid">
         <div class="hero-texto">
@@ -79,7 +79,7 @@
       </div>
     </section>
 
-    <!-- ===== Sobre e estatísticas ===== -->
+    <!-- Sobre e estatísticas -->
     <section id="sobre" class="secao secao-alt">
       <div class="container sobre-grid">
         <div class="reveal">
@@ -118,15 +118,50 @@
       </div>
     </section>
 
-    <!-- ===== Habilidades ===== -->
+    <!-- Habilidades -->
     <section id="habilidades" class="secao">
       <div class="container">
         <div class="cabecalho-secao">
           <span class="etiqueta">Habilidades</span>
-          <h2>Tecnologias que domino</h2>
+          <h2>Dados e Business Intelligence</h2>
         </div>
-
         <div class="habilidades-grid">
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-sql">SQL</span><strong>Banco de Dados Relacionais</strong><span class="porcentagem">90%</span></div>
+            <div class="barra"><span data-largura="90%"></span></div>
+          </div>
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-pbi">PB</span><strong>Power BI</strong><span class="porcentagem">95%</span></div>
+            <div class="barra"><span data-largura="95%"></span></div>
+          </div>
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-xls">X</span><strong>Excel</strong><span class="porcentagem">90%</span></div>
+            <div class="barra"><span data-largura="90%"></span></div>
+          </div>
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-etl">ETL</span><strong>ETL e Power Query</strong><span class="porcentagem">95%</span></div>
+            <div class="barra"><span data-largura="95%"></span></div>
+          </div>
+
+          <h2>Controladoria e Finanças</h2>
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-fin">$</span><strong>Análise financeira</strong><span class="porcentagem">75%</span></div>
+            <div class="barra"><span data-largura="75%"></span></div>
+          </div> 
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-dre">DRE</span><strong>DRE Gerencial</strong><span class="porcentagem">75%</span></div>
+            <div class="barra"><span data-largura="75%"></span></div>
+          </div> 
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-rxo">RxO</span><strong>Real x Orçado</strong><span class="porcentagem">80%</span></div>
+            <div class="barra"><span data-largura="80%"></span></div>
+          </div> 
+          <div class="habilidade reveal">
+            <div class="habilidade-topo"><span class="icone icone-custo">GC</span><strong>Gestão de Custos</strong><span class="porcentagem">65%</span></div>
+            <div class="barra"><span data-largura="65%"></span></div>
+          </div> 
+
+          <h2>Desenvolvimento Web</h2>
           <div class="habilidade reveal">
             <div class="habilidade-topo"><span class="icone icone-html">H</span><strong>HTML</strong><span class="porcentagem">95%</span></div>
             <div class="barra"><span data-largura="95%"></span></div>
@@ -140,22 +175,14 @@
             <div class="barra"><span data-largura="80%"></span></div>
           </div>
           <div class="habilidade reveal">
-            <div class="habilidade-topo"><span class="icone icone-pbi">PB</span><strong>Power BI</strong><span class="porcentagem">85%</span></div>
-            <div class="barra"><span data-largura="85%"></span></div>
-          </div>
-          <div class="habilidade reveal">
-            <div class="habilidade-topo"><span class="icone icone-xls">X</span><strong>Excel</strong><span class="porcentagem">90%</span></div>
-            <div class="barra"><span data-largura="90%"></span></div>
-          </div>
-          <div class="habilidade reveal">
-            <div class="habilidade-topo"><span class="icone icone-fin">$</span><strong>Análise financeira</strong><span class="porcentagem">85%</span></div>
-            <div class="barra"><span data-largura="85%"></span></div>
+            <div class="habilidade-topo"><span class="icone icone-py">PY</span><strong>Python</strong><span class="porcentagem">70%</span></div>
+            <div class="barra"><span data-largura="70%"></span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== Projetos ===== -->
+    <!-- Projetos -->
     <section id="projetos" class="secao secao-alt">
       <div class="container">
         <div class="cabecalho-secao">
@@ -167,12 +194,12 @@
           <article class="projeto reveal">
             <div class="projeto-img">
               <span class="numero">01</span>
-              <img src="img/Dashboard DRE.png" alt="Dashboard DRE">
+              <img src="dashboard-dre.png" alt="Dashboard DRE">
             </div>
             <div class="projeto-corpo">
               <h3>DRE (Demonstrativo de Resultado)</h3>
               <p>Acompanhamento do resultado financeiro por período, com receitas, custos e despesas.</p>
-              <div class="tags"><span>Power BI</span><span>Excel</span></div>
+              <div class="tags"><span>SQL</span><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Python</span><span>Excel</span><span>Analise Financeira</span></div>
               <button class="link-projeto" data-modal="modal-dre">Ver detalhes &rarr;</button>
             </div>
           </article>
@@ -180,12 +207,12 @@
           <article class="projeto reveal">
             <div class="projeto-img">
               <span class="numero">02</span>
-              <img src="img/Dashboard ProjFat.png" alt="Dashboard de projeção">
+              <img src="dashboard-proj-fat.png" alt="Dashboard de projeção">
             </div>
             <div class="projeto-corpo">
               <h3>Projeção de Faturamento</h3>
               <p>Projeção do faturamento com base no histórico, comparando o realizado com o previsto.</p>
-              <div class="tags"><span>Power BI</span><span>Excel</span></div>
+              <div class="tags"><span>SQL</span><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Python</span><span>Excel</span><span>Analise Financeira</span></div>
               <button class="link-projeto" data-modal="modal-projecao">Ver detalhes &rarr;</button>
             </div>
           </article>
@@ -193,12 +220,12 @@
           <article class="projeto reveal">
             <div class="projeto-img">
               <span class="numero">03</span>
-              <img src="img/Dashboard PP.png" alt="Dashboard Pedido Perfeito">
+              <img src="dashboard-pp.png" alt="Dashboard Pedido Perfeito">
             </div>
             <div class="projeto-corpo">
               <h3>Pedido Perfeito</h3>
               <p>Acompanhamento da qualidade dos pedidos e dos pontos de falha do processo.</p>
-              <div class="tags"><span>Power BI</span></div>
+              <div class="tags"><span>SQL</span><span>Power BI</span><span>Power Query</span><span>DAX</span><span>Python</span><span>Microsoft Fabric</span></div>
               <button class="link-projeto" data-modal="modal-pedido">Ver detalhes &rarr;</button>
             </div>
           </article>
@@ -206,7 +233,7 @@
       </div>
     </section>
 
-    <!-- ===== Contato ===== -->
+    <!-- Contato -->
     <section id="contato" class="secao">
       <div class="container contato-grid">
         <div class="reveal">
@@ -246,12 +273,18 @@
 
   </main>
 
-  <!-- ===== Modais dos projetos ===== -->
+  <!-- Modais dos projetos -->
   <div class="modal" id="modal-dre" role="dialog" aria-modal="true" aria-labelledby="t-dre">
     <div class="modal-caixa">
       <button class="modal-fechar" aria-label="Fechar">&times;</button>
       <h3 id="t-dre">DRE (Demonstrativo de Resultado)</h3>
-      <p>Descreva aqui o contexto, as etapas de construção do dashboard e os principais insights.</p>
+      <p> 
+        O painel foi construído a partir de um datalake com consultas em SQL e tratamento de dados no Power Query. O orçamento é integrado a partir de uma tabela de referência em Excel, permitindo comparar o realizado com o planejado.<br>
+        O painel permite analisar a performance em diferentes recortes de tempo (mês, trimestre, semestre e ano) e, principalmente, por centro de custo (áreas da empresa) e por filial. A base considera os lançamentos gerenciais e os critérios de rateio, incluindo critérios móveis e regras aplicadas diretamente no datalake, o que dá ao gestor uma visão consistente dos custos de cada área.
+        <br><br> 
+        <strong>Ferramentas:</strong> 
+        SQL, Python, Power BI, Power Query, DAX, Excel.
+      </p>
     </div>
   </div>
 
@@ -259,7 +292,15 @@
     <div class="modal-caixa">
       <button class="modal-fechar" aria-label="Fechar">&times;</button>
       <h3 id="t-projecao">Projeção de Faturamento</h3>
-      <p>Descreva aqui a metodologia da projeção, as premissas e os resultados obtidos.</p>
+      <p>
+        Painel foi construído sobre o histórico de vendas por praça (região de venda) e a sazonalidade identificada nos dados. A partir desse histórico, apliquei uma curva de crescimento para projetar o faturamento e avaliar a aderência à meta definida no planejamento estratégico. Os dados foram extraídos de um datalake com consultas em SQL.<br>
+        O painel permite acompanhar o atingimento da meta com filtro de período interativo e comparar o desempenho atual com o histórico. Também disponibilizei um calendário de faturamento para os vendedores, com metas    anuais, mensais e diárias, para que cada um acompanhe o próprio resultado.
+        <br><br>
+        <strong>
+          Ferramentas:
+        </strong> 
+        SQL, Power BI, Power Query, DAX, HTML, CSS, Excel.
+      </p>
     </div>
   </div>
 
@@ -267,14 +308,22 @@
     <div class="modal-caixa">
       <button class="modal-fechar" aria-label="Fechar">&times;</button>
       <h3 id="t-pedido">Pedido Perfeito</h3>
-      <p>Descreva aqui os indicadores acompanhados, a forma de cálculo e as melhorias identificadas.</p>
+      <p>
+        Painel mede a eficiência da operação desde o pedido até a entrega. A partir do mapeamento do processo, defini os indicadores que compõem a reformulação do macro indicador e estabeleci as regras de cálculo. As bases foram unificadas em um datalake e o modelo foi publicado no Power BI com segurança em nível de linha (RLS), para que cada gerente de filial visualize apenas os dados da sua operação.
+        <br>
+        Após a implementação, o indicador teve um ganho de 3 pontos percentuais no primeiro mês e de 5 pontos percentuais após o terceiro mês. Além da melhora nos resultados, o painel aumentou o engajamento das equipes com o indicador e apoiou o processo de premiação dos melhores colaboradores, bem como o acompanhamento dos casos que precisavam de atenção.
+        <br><br>
+        <strong>
+          Ferramentas:
+        </strong> 
+        SQL, Power BI, Power Query, DAX, HTML, CSS, Microsoft Fabric.
+      </p>
     </div>
   </div>
 
-  <!-- ===== Rodapé ===== -->
+  <!-- Rodapé -->
   <footer class="rodape">
     <div class="container rodape-inner">
-      <span class="logo">&lt;WF/&gt;</span>
       <p>&copy; <span id="ano"></span> Weberton Fernandes. Feito com HTML, CSS e JavaScript.</p>
     </div>
   </footer>
